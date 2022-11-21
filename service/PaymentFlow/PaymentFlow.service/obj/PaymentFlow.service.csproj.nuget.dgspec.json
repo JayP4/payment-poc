@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.service\\PaymentFlow.service.csproj": {}
+  },
+  "projects": {
+    "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.model\\PaymentFlow.model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.model\\PaymentFlow.model.csproj",
+        "projectName": "PaymentFlow.model",
+        "projectPath": "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.model\\PaymentFlow.model.csproj",
+        "packagesPath": "C:\\Users\\Gaurang.Parikh\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gaurang.Parikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://collaberaazure.pkgs.visualstudio.com/_packaging/Collabera.CommonPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.repository\\PaymentFlow.repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.repository\\PaymentFlow.repository.csproj",
+        "projectName": "PaymentFlow.repository",
+        "projectPath": "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.repository\\PaymentFlow.repository.csproj",
+        "packagesPath": "C:\\Users\\Gaurang.Parikh\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gaurang.Parikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://collaberaazure.pkgs.visualstudio.com/_packaging/Collabera.CommonPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.model\\PaymentFlow.model.csproj": {
+                "projectPath": "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.model\\PaymentFlow.model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.service\\PaymentFlow.service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.service\\PaymentFlow.service.csproj",
+        "projectName": "PaymentFlow.service",
+        "projectPath": "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.service\\PaymentFlow.service.csproj",
+        "packagesPath": "C:\\Users\\Gaurang.Parikh\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gaurang.Parikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://collaberaazure.pkgs.visualstudio.com/_packaging/Collabera.CommonPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.model\\PaymentFlow.model.csproj": {
+                "projectPath": "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.model\\PaymentFlow.model.csproj"
+              },
+              "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.repository\\PaymentFlow.repository.csproj": {
+                "projectPath": "D:\\Study\\React\\POC\\payment-poc\\service\\PaymentFlow\\PaymentFlow.repository\\PaymentFlow.repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
